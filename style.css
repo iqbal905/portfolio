@@ -1,0 +1,136 @@
+/* 🌿 GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f1eb;
+    color: #2e2e2e;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+    background-color: #3e4e3c;
+    color: white;
+}
+
+nav h1 {
+    font-family: 'Playfair Display', serif;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(to right, #6b8f71, #a3b18a);
+    color: white;
+}
+
+.hero h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+/* GENERAL SECTION STYLE */
+section {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+/* DIFFERENT SECTION BACKGROUNDS 🌿 */
+#about {
+    background-color: #fefae0;
+}
+
+#projects {
+    background-color: #e9edc9;
+}
+
+#capstone {
+    background-color: #ccd5ae;
+}
+
+#philosophy {
+    background-color: #faedcd;
+}
+
+#contact {
+    background-color: #d4a373;
+    color: white;
+}
+
+/* HEADINGS */
+h2 {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 20px;
+    color: #3e4e3c;
+}
+
+#contact h2 {
+    color: white;
+}
+
+/* CARDS */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 15px;
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* LISTS */
+ul {
+    padding-left: 20px;
+}
+
+/* BUTTON */
+a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 18px;
+    background-color: #6b8f71;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    background-color: #3e4e3c;
+}
+
+/* CONTACT TEXT */
+#contact p {
+    margin: 10px 0;
+}
